@@ -1,0 +1,12 @@
+
+spring:
+  application:
+    name: interstellar-transport-system
+
+file:
+  path: src/main/resources/data.xlsx
+
+server:
+  port: 8080
+  servlet:
+    context-path: /interstellar-service
